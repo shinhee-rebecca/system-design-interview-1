@@ -6,7 +6,7 @@
 
 - 전날 자정까지 스터디 자료(발표자료 & 질문지) 업로드
 
-📌 무시무시한 벌금 ([벌금 기록지]())
+📌 무시무시한 벌금 ([벌금 기록지](https://github.com/shinhee-rebecca/system-design-interview-1/blob/main/ETC/%EB%B2%8C%EA%B8%88%20%EA%B8%B0%EB%A1%9D%EC%A7%80.md))
 
 - 스터디 지각 1분당 1000원 (최대 2만 5천원)
 - 스터디 불참 2만 5천원 (경조사, 업무 제외)

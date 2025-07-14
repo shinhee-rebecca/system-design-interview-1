@@ -1,4 +1,4 @@
 1. **루아스크립트**와 **sorted set**을 이용해서 어떻게 경쟁 조건 문제를 해결할 수 있을까? (71p)
-2. 깜짝 세일 같은 이벤트로 트래픽이 급증하는 경우, **토큰 버킷**이 왜 적합할까?
+2. 깜짝 세일 같은 이벤트로 트래픽이 급증하는 경우, **토큰 버킷**이 왜 적합할까? (73p)
 3. 각 부서에서는 경성(hard), soft(연성)의 처리율 제한을 사용하는 케이스가 있나요?
 4. rate limit 이외에 [bulkhead](https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead)를 활용하는 부서가 있나요?

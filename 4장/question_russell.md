@@ -1,9 +1,9 @@
 # russell 4장 질문지
 
-## redis외에 사용하는 rate limitter를 위한 도구는 어떤것이 있는가?
+## redis외에 사용하는 rate limiter를 위한 도구는 어떤것이 있는가?
 ex) 파티션 조절, arcus(redis와 유사하게 사용)
 
-## rate limitter와 Circuit Breaker 차이를 설명하시오.
+## rate limiter와 Circuit Breaker 차이를 설명하시오.
 
 <details>
 <summary><strong>Rate Limiter (레이트 리미터)</strong></summary>
@@ -37,6 +37,6 @@ ex) 파티션 조절, arcus(redis와 유사하게 사용)
 
 </details>
 
-## rate limitter 모니터링 툴로 무엇을 사용하는가?
+## rate limiter 모니터링 툴로 무엇을 사용하는가?
 
 ex) [prometheus](https://grafana.com/grafana/dashboards/14091-redis-dashboard-for-prometheus-redis-exporter-1-x/)

@@ -1,7 +1,7 @@
 # russell 4장 질문지
 
 ## redis외에 사용하는 rate limiter를 위한 도구는 어떤것이 있는가?
-ex) 파티션 조절, arcus(redis와 유사하게 사용)
+ex) 파티션 조절, arcus(redis와 유사하게 사용), Count-min sketch
 
 ## rate limiter와 Circuit Breaker 차이를 설명하시오.
 

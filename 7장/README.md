@@ -86,7 +86,8 @@ auto_increment기능을 갖춘 데이터베이스 서버, 즉 티켓 섭르르 �
 
 트위터의 스노우 플레이크 id는 id요구사항을 모두 만족시킨다.
 
-<img width="1280" height="520" alt="image" src="https://github.com/user-attachments/assets/c5b38ce1-f2ea-4d4e-8e95-5c40b376e893" />
+<img width="1100" height="241" alt="image" src="https://github.com/user-attachments/assets/07701b4c-bea0-459d-b199-1e777b68d95d" />
+
 
 |구분|비트수|내용|
 |------|---|---|
@@ -162,3 +163,10 @@ MongoDB에서 document에 사용하는 ObjectId를 의미한다.
 - 여러 노드가 동시에 ID를 생성하면 정렬 순서가 완벽하게 보존되지 않을 수 있다.
 - 처음 4바이트에 타임스탬프가 저장되므로 문서의 생성 시간을 추출할 수 있어, 일부 사용 사례에서 메타데이터가 노출될 수 있다.
 - 4바이트 타임스탬프는 2038년 이후에 문제가 발생할 수 있다.
+
+---
+
+참고
+https://medium.com/@kedarkanase12/unique-id-generator-in-distributed-systems-3b36d9f6d990
+https://github.com/baidu/uid-generator
+

@@ -32,7 +32,8 @@
 
 
 ## UUID
-<img width="853" height="387" alt="image" src="https://github.com/user-attachments/assets/68e9385d-a368-4d09-bde9-bf104eef8212" />
+<img width="1100" height="166" alt="image" src="https://github.com/user-attachments/assets/efd4ced1-ce02-48c5-84b6-9ac4dc7605a5" />
+
 
 컴퓨터 시스템에 저장되는 정보를 유일하게 식별하기 위한 128비트짜리 수다. UUID 값은 충돌 가능성이 낮다.
 UUID 예시 : 6e3c18b5-405b-4931-bdbd-42f62f33ceea

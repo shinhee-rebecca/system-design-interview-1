@@ -37,6 +37,7 @@
 
 
 컴퓨터 시스템에 저장되는 정보를 유일하게 식별하기 위한 128비트짜리 수다. UUID 값은 충돌 가능성이 낮다.
+
 UUID 예시 : 6e3c18b5-405b-4931-bdbd-42f62f33ceea
 
 ### 장점
@@ -130,7 +131,6 @@ Baidu에서 사용하는 Java로 구현된 Snowflake기반 고유 ID 생성기
 #### CachedUidGenerator 
 
 <img width="744" height="512" alt="image" src="https://github.com/user-attachments/assets/5793f8c1-2f91-4e0e-b17a-6e81987322e9" />
-
 
 - RingBuffer를 통한 캐싱을 이용한 방법
 - 더블 RingBuffer를 사용함(UID, 상태용)

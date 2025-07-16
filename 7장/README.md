@@ -170,6 +170,6 @@ MongoDB에서 document에 사용하는 ObjectId를 의미한다.
 ---
 
 참고
-https://medium.com/@kedarkanase12/unique-id-generator-in-distributed-systems-3b36d9f6d990
-https://github.com/baidu/uid-generator
+- https://medium.com/@kedarkanase12/unique-id-generator-in-distributed-systems-3b36d9f6d990
+- https://github.com/baidu/uid-generator
 

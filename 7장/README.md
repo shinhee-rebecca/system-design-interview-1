@@ -70,7 +70,7 @@ UUID 예시 : 6e3c18b5-405b-4931-bdbd-42f62f33ceea
 <img width="1061" height="538" alt="image" src="https://github.com/user-attachments/assets/380df3a4-f324-4252-a414-47caf69aea1f" />
 
 
-auto_increment기능을 갖춘 데이터베이스 서버, 즉 티켓 섭르르 중앙 집중형으로 하나만 사용하는 것을 의미한다.
+auto_increment기능을 갖춘 데이터베이스 서버, 즉 티켓 서버를 중앙 집중형으로 하나만 사용하는 것을 의미한다.
 
 ### 장점
 - 유일성이 보장되는 오직 숫자로만 구성된 ID를 쉽게 만들 수 있다.

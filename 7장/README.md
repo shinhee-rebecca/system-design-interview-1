@@ -32,7 +32,8 @@
 
 
 ## UUID
-<img width="1100" height="166" alt="image" src="https://github.com/user-attachments/assets/efd4ced1-ce02-48c5-84b6-9ac4dc7605a5" />
+<img width="853" height="387" alt="image" src="https://github.com/user-attachments/assets/0fc0cdf4-d60d-4cbf-86fe-affabbd87715" />
+
 
 
 컴퓨터 시스템에 저장되는 정보를 유일하게 식별하기 위한 128비트짜리 수다. UUID 값은 충돌 가능성이 낮다.
@@ -88,7 +89,7 @@ auto_increment기능을 갖춘 데이터베이스 서버, 즉 티켓 서버를 �
 
 트위터의 스노우 플레이크 id는 id요구사항을 모두 만족시킨다.
 
-<img width="1100" height="241" alt="image" src="https://github.com/user-attachments/assets/07701b4c-bea0-459d-b199-1e777b68d95d" />
+<img width="1100" height="166" alt="image" src="https://github.com/user-attachments/assets/efd4ced1-ce02-48c5-84b6-9ac4dc7605a5" />
 
 
 |구분|비트수|내용|

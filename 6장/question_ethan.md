@@ -9,4 +9,4 @@
     - 이후에는 Multi-Paxos를 활용한 leader based replication을 적용한 것으로 보임
     - 참고로 **majority quorom에서도 linearizability(선형성)을 보장받지 못할 수 있음**
     - 출처: [DynamoDB, Ten Years Later](https://www.mydistributed.systems/2022/10/dynamodb-ten-years-later.html?utm_source=chatgpt.com)
-    - 
+3. 영구 장애 동안 발생한 차이를 동기화하는 동안 발생하는 쓰기 데이터는? (즉, 머클 트리를 구성하고, 동기화 하는 동안에 정상 노드에 쓰기된 데이터는?)

@@ -82,3 +82,5 @@ https://redis.io/docs/latest/operate/oss_and_stack/management/sentinel/
 > | **odown** | 복수 Sentinel이 합의한 확정 장애 상태 |
 > | **리더 선출** | 장애 조치를 수행할 Sentinel 결정 |
 > | **PROMOTE** | 슬레이브 → 마스터 승격, 나머지 슬레이브 재구성 |
+
+### 3. 어떤 시스템 특성이 CP에 적합하고, AP에 적합할까?

@@ -23,6 +23,9 @@
  
 
 ### 피드 발행
+
+<img width="750" height="1205" alt="image" src="https://github.com/user-attachments/assets/5511c45b-9154-4174-901a-6436e0d578be" />
+
 - 사용자: 피드 발행 API(POST /v1/me/feed)를 사용하여 새 포스팅을 올리는 주체이다.
 - 로드밸런서: 트래픽을 웹 서버들로 분산한다.
 - 웹 서버: HTTP요청을 내부 서비스로 중계하는 역할을 담당한다.
@@ -31,6 +34,9 @@
 - 알림 서비스: 친구들에게 새 포스팅이 올라왔음음을 알리거나, 푸시 알림을 보내는 역할을 한다.
 
 ### 뉴스 피드 생성
+
+<img width="640" height="947" alt="image" src="https://github.com/user-attachments/assets/ca063062-2f81-4ea4-8dd8-780db873363e" />
+
 - 사용자: 피드 읽기 API(GET v1/me/feed)를 이용하여 피드를 읽는 존재이다.
 - 로드밸런서: 트래픽을 웹 서버들로 분산한다.
 - 트래픽을 뉴스 피드 서비스로 보낸다.
@@ -44,8 +50,13 @@
 - 웹 서버에서는 클라이언트 통신뿐 아니라, 인증이나 처리율 제한(레이트 리미터) 등의 기능을 수행한다.
 
 ### 포스팅 전송(팬아웃) 서비스
+
+<img width="1080" height="1224" alt="image" src="https://github.com/user-attachments/assets/c096af93-4e03-4962-a0fc-1a0e348aecf2" />
+
+
 - 그 사용자 친구 관계에 있는 모든 사용자에게 전달하는 과정이다.
-- 
+
+
 #### 팬 아웃의 두가지 모델
 **쓰기 시점 팬아웃(fanout-on-write, push)**
 - 새로운 포스팅을 기록하는 시점에 뉴스 피드를 갱신한다.
@@ -69,6 +80,7 @@
 
 
 #### 팬아웃 서비스의 동작 과정
+<img width="561" height="513" alt="image" src="https://github.com/user-attachments/assets/54ea3d7d-0c7f-447a-9712-296c89f14b6b" />
 
 1. 그래피 데이터베이스에서 친구 ID목록을 가져온다.
 2. 사용자 정보 캐시에서 친구들의 정보를 가져온다.
@@ -76,6 +88,8 @@
 4. 팬아웃 작업 서버가 메시지 큐에서 데이터를 꺼내어 뉴스 피드 데이터를 뉴스 피드 캐시에 넣는다.
 
 ### 피드 읽기 흐름 상세 설계
+<img width="828" height="832" alt="image" src="https://github.com/user-attachments/assets/1d4329e0-f5ad-49a3-b9a9-d2d24627cd7a" />
+
 1. 사용자가 뉴스 피드를 읽으려는 요청을 보낸다.
 2. 로드밸런서가 요청을 웹 서버 가운데 하나로 보낸다.
 3. 웹 서버는 피들르 가져오기 위해 뉴스 피드 서비스를 호출한다.
@@ -84,6 +98,8 @@
 6. 생성된 뉴스 피드를 JSON 형태로 클라이언트에게 보낸다. 클라이언트는 해당 피드를 렌더링한다.
 
 ### 캐시 구조
+<img width="617" height="327" alt="image" src="https://github.com/user-attachments/assets/cefe03f6-eb5b-4b74-bf64-054b643b856f" />
+
 - 뉴스 피드: 뉴스 피드의 ID를 보관한다.
 - 콘텐츠: 포스팅 데이터를 보관한다. 인기 컨텐츠는 따로 보관한다.
 - 소셜 그래프 사용자 간 관계 정보를 보관한다.

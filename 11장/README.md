@@ -123,3 +123,6 @@
 - 여러 데이터 센터를 지원할 방법
 - 메시지 큐를 사용하여 컴포넌트 사이의 결합도 낮추기
 - 핵심 메트릭에 대한 모니터링
+
+
+image: https://bytebytego.com/courses/system-design-interview/design-a-news-feed-system

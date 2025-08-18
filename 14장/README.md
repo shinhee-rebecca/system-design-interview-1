@@ -1,5 +1,7 @@
 ## 대규모 시스템 설계 기초 ch14. 유튜브 설계
 
+https://app--system-architect-0c7ba4e0.base44.app/
+
 ### 0단계. 가벼운 설계
 ![](https://raw.githubusercontent.com/joelonsw/TIL/refs/heads/master/images/2025-08-18-시스템14장.jpg)
 
